@@ -1,0 +1,45 @@
+{
+  "name": "stlswm/wx-mp",
+  "description": "wx-mp is WeChat Micro Program SDK for PHP",
+  "keywords": [
+    "stlswm",
+    "wechat",
+    "micro",
+    "program",
+    "wx",
+    "mp"
+  ],
+  "authors": [
+    {
+      "name": "wang min",
+      "email": "stlswm@163.com",
+      "homepage": "https://www.stlswm.com"
+    }
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=7.0",
+    "ext-json": "*",
+    "ext-simplexml": "*",
+    "ext-libxml": "*",
+    "guzzlehttp/guzzle": "^6.3",
+    "guzzlehttp/promises": "^1.3",
+    "guzzlehttp/psr7": "^1.4",
+    "adbario/php-dot-notation": "^2.2",
+    "mtdowling/jmespath.php": "^2.4",
+    "ext-mbstring": "*",
+    "ext-openssl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "stlswm\\WxMp\\": "src/"
+    },
+    "files": [
+      "src/Constants/Business.php",
+      "src/Constants/ErrCode.php"
+    ]
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8"
+  }
+}
