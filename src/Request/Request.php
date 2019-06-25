@@ -19,7 +19,7 @@ use GuzzleHttp\Exception\GuzzleException;
 use GuzzleHttp\Psr7\Uri;
 use function strtolower;
 use function strtoupper;
-use const WECHAT_CLOUD_SERVER_UNREACHABLE;
+use const WX_MP_SERVER_UNREACHABLE;
 
 
 /**
@@ -328,7 +328,7 @@ abstract class Request implements ArrayAccess
         } catch (GuzzleException $e) {
             throw new ClientException(
                 $e->getMessage(),
-                WECHAT_CLOUD_SERVER_UNREACHABLE,
+                WX_MP_SERVER_UNREACHABLE,
                 $e
             );
         }

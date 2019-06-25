@@ -13,24 +13,24 @@
 /**
  * Credential
  */
-define('WECHAT_CLOUD_INVALID_CREDENTIAL', 'SDK.InvalidCredential');
+define('WX_MP_INVALID_CREDENTIAL', 'SDK.InvalidCredential');
 /**
  * Client Not Found
  */
-define('WECHAT_CLOUD_CLIENT_NOT_FOUND', 'SDK.ClientNotFound');
+define('WX_MP_CLIENT_NOT_FOUND', 'SDK.ClientNotFound');
 /**
  * Server Unreachable
  */
-define('WECHAT_CLOUD_SERVER_UNREACHABLE', 'SDK.ServerUnreachable');
+define('WX_MP_SERVER_UNREACHABLE', 'SDK.ServerUnreachable');
 /**
  * Invalid RegionId
  */
-define('WECHAT_CLOUD_INVALID_REGION_ID', 'SDK.InvalidRegionId');
+define('WX_MP_INVALID_REGION_ID', 'SDK.InvalidRegionId');
 /**
  * Invalid Argument
  */
-define('WECHAT_CLOUD_INVALID_ARGUMENT', 'SDK.InvalidArgument');
+define('WX_MP_INVALID_ARGUMENT', 'SDK.InvalidArgument');
 /**
  * Service Not Found
  */
-define('WECHAT_CLOUD_SERVICE_NOT_FOUND', 'SDK.ServiceNotFound');
+define('WX_MP_SERVICE_NOT_FOUND', 'SDK.ServiceNotFound');

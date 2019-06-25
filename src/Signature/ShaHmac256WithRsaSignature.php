@@ -5,7 +5,7 @@ namespace stlswm\WxMp\Signature;
 use const OPENSSL_ALGO_SHA256;
 use stlswm\WxMp\Exception\ClientException;
 use Exception;
-use const WECHAT_CLOUD_INVALID_CREDENTIAL;
+use const WX_MP_INVALID_CREDENTIAL;
 
 /**
  * Class ShaHmac256WithRsaSignature
@@ -35,7 +35,7 @@ class ShaHmac256WithRsaSignature implements SignatureInterface
         } catch (Exception $exception) {
             throw  new ClientException(
                 $exception->getMessage(),
-                WECHAT_CLOUD_INVALID_CREDENTIAL
+                WX_MP_INVALID_CREDENTIAL
             );
         }
 
