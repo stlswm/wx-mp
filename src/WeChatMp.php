@@ -5,12 +5,12 @@ namespace stlswm\WxMp;
 use stlswm\WxMp\Traits\RequestTrait;
 
 /**
- * Class WeChatPay
+ * Class WeChatMp
  *
  * @package stlswm\WxMp
  * @mixin RequestTrait
  */
-class WeChatPay
+class WeChatMp
 {
     use RequestTrait;
     const VERSION = '1.0.1';

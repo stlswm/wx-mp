@@ -3,7 +3,7 @@
 namespace stlswm\WxMp\Traits;
 
 use stlswm\WxMp\Client\Client;
-use stlswm\WxMp\WeChatPay;
+use stlswm\WxMp\WeChatMp;
 use stlswm\WxMp\Request\RpcRequest;
 use stlswm\WxMp\Request\UserAgent;
 
@@ -11,7 +11,7 @@ use stlswm\WxMp\Request\UserAgent;
  * Trait RequestTrait
  *
  * @package stlswm\WxMp\Traits
- * @mixin     WeChatPay
+ * @mixin     WeChatMp
  */
 trait RequestTrait
 {

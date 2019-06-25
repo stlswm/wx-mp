@@ -5,7 +5,7 @@ namespace stlswm\WxMp\Request;
 use function implode;
 use const PHP_OS;
 use const PHP_VERSION;
-use stlswm\WxMp\WeChatPay;
+use stlswm\WxMp\WeChatMp;
 
 /**
  * Class UserAgent
@@ -35,7 +35,7 @@ class UserAgent
     {
         if (self::$userAgent === []) {
             self::$userAgent = [
-                'Client' => WeChatPay::VERSION,
+                'Client' => WeChatMp::VERSION,
                 'PHP'    => PHP_VERSION,
             ];
         }
